@@ -4,7 +4,7 @@ import img from '../../../assets/img/home-page.jpg';
 export const ContainerHome = styled.section`
     background-image: url(${img});
     background-size: cover;
-    height: 800px;
+    height: 1000px;
     display: flex;
 `;
 

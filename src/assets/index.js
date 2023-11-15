@@ -1,7 +1,9 @@
 import logoSvg from './svgs/logo.svg';
-import iconMessage from './svgs/iconMessage.svg'
+import iconMessage from './svgs/iconMessage.svg';
+import digitalPayment from './svgs/digital-payment.svg'
 
 export const svg = {
     logo: logoSvg,
-    iconMessage: iconMessage
+    iconMessage: iconMessage,
+    digitalPayment: digitalPayment
 }

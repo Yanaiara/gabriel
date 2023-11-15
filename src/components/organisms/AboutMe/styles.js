@@ -6,6 +6,8 @@ export const AboutMeContainer = styled.div`
   flex-direction: row;
   display: flex;
   justify-content: center;
+  height: 500px;
+  align-items: center;
 `;
 
 /* export const ProfileImage = styled.img` */

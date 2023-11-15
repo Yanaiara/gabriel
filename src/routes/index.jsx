@@ -1,7 +1,8 @@
-import { Home } from "../pages/public/Home";
-import RenderNavBar from "../components/molecules/RenderNavBar";
 import { FloatingContactButton } from "../components/atoms/FloatButton";
+import RenderNavBar from "../components/molecules/RenderNavBar";
 import AboutMe from "../components/organisms/AboutMe";
+import TrainWithMe from "../components/organisms/TrainWithMe";
+import { Home } from "../pages/public/Home";
 
 const AppRoutes = () => {
     return (
@@ -9,6 +10,7 @@ const AppRoutes = () => {
             <RenderNavBar />
             <Home />
             <AboutMe />
+            <TrainWithMe />
             <FloatingContactButton />
         </>
     )
